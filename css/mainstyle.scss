@@ -1,0 +1,174 @@
+$font-family:'Roboto', Helvetica, sans-serif;
+$title_font-family:'Monserrate', Helvetica, sans-serif;
+$main-color:rgb(68, 177, 228);
+$font-color:#424242;
+
+body{
+    font-family: $font-family;
+    color:$font-color;
+    position: relative;
+    margin:0;
+    line-height: 1.6em;
+    background-color:#f5f5f5;
+    background-image: url(/image/main_bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    .page{
+        .header{
+            max-width: 75%;
+            margin:0 auto;
+            height: 100px;
+            width:100%;
+            .header_content{
+                height:100px;
+                .site-title{
+                    float:left;
+                    font-size:20px;
+                    font-family: $title_font-family;
+                    margin:38px 0 0 0;
+                    font-weight:500;
+                    line-height: 1;
+                    span{
+                        color:$main-color;
+                    }
+                }
+                .site-nav{
+                    display:block;
+                    padding:0;
+                    margin:0;
+                    ul{
+                        float:right;
+                        list-style-type: none;
+                        li{
+                            display: inline-block;
+                            margin-top:33px;
+                            position: relative;
+                            text-align: center;
+                            padding:0 20px 0 20px;
+                            a:link{
+                                color:gray;
+                            }
+                            a:visited{
+                                color:gray;
+                            }
+                            a:hover{
+                                color:$main-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .site-main{
+            max-width: 75%;
+            margin:0 auto;
+            padding-bottom:50px;
+            .inner-section{
+                box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
+                width:100%;
+                height:auto;
+                position: relative;
+                background-color: white;
+                border-radius: 15px;
+                .page-header{
+                    background-color:$main-color;
+                    padding:50px;
+                    margin-bottom:25px;
+                    background-image: url(/image/sp_main_bg.png);
+                    background-size: cover;
+                    background-attachment: scroll;
+                    background-position: center center;
+                    .photo{
+                        max-width: 280px;
+                        margin-bottom: -75px;
+                        border:3px solid white;
+                        box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+                        transition: all 0.3s ease-in-out;
+                        img{
+                            max-width: 100%;
+                            vertical-align: bottom;
+                            height:auto;
+                        }
+                    }
+                    .title-block{
+                        color:white;
+                        text-align: center;
+                        margin:30px 0 0 0;
+                        h1{
+                            font-size:54px;
+                            font-weight: 700;
+                        }
+                    }
+                    .social-media{
+                        position: relative;
+                        margin: 20px auto 0 auto;
+                        color:gray;
+                        text-align: center;
+                        a{
+                            background-color: #f5f5f5;
+                            color:gray;
+                            width:36px;
+                            height:36px;
+                            margin: 0 2px;
+                            border-radius: 24px;
+                            display: inline-block;
+                            text-align: center;
+                            i{
+                                line-height:36px;
+                                font-size:16px;
+                            }
+                        }
+                    }
+                }
+                .page-content{
+                    padding:30px 50px 50px 50px;
+                    .about-me{
+                        .block-title{
+                            h3{
+                                font-weight: 600;
+                                line-height:1.5em;
+                                font-family: $title_font-family;
+                                margin-top:5px;
+                                font-size:21px;
+                                margin-bottom:10px;
+                                span{
+                                    color:$main-color; 
+                                }
+                            }
+                        }
+                    }
+                    .info-list{
+                        list-style: none;
+                        display: inline-block;
+                        li{
+                            margin:6px 0;
+                            .title{
+                                display: inline-block;
+                                min-width: 120px;
+                            }
+                            .list-content{
+                                color:gray;
+                                a{
+                                    color:$main-color;
+                                }
+                                a:hover{
+                                    color:orange;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+footer{
+    max-width: 75%;
+    margin:0 auto;
+    color:gray;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5em;
+}

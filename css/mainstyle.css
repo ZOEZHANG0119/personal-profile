@@ -1,0 +1,133 @@
+body {
+  font-family: "Roboto", Helvetica, sans-serif;
+  color: #424242;
+  position: relative;
+  margin: 0;
+  line-height: 1.6em;
+  background-color: #f5f5f5;
+  background-image: url(/image/main_bg.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  body .page .header {
+    max-width: 75%;
+    margin: 0 auto;
+    height: 100px;
+    width: 100%; }
+    body .page .header .header_content {
+      height: 100px; }
+      body .page .header .header_content .site-title {
+        float: left;
+        font-size: 20px;
+        font-family: "Monserrate", Helvetica, sans-serif;
+        margin: 38px 0 0 0;
+        font-weight: 500;
+        line-height: 1; }
+        body .page .header .header_content .site-title span {
+          color: #44b1e4; }
+      body .page .header .header_content .site-nav {
+        display: block;
+        padding: 0;
+        margin: 0; }
+        body .page .header .header_content .site-nav ul {
+          float: right;
+          list-style-type: none; }
+          body .page .header .header_content .site-nav ul li {
+            display: inline-block;
+            margin-top: 33px;
+            position: relative;
+            text-align: center;
+            padding: 0 20px 0 20px; }
+            body .page .header .header_content .site-nav ul li a:link {
+              color: gray; }
+            body .page .header .header_content .site-nav ul li a:visited {
+              color: gray; }
+            body .page .header .header_content .site-nav ul li a:hover {
+              color: #44b1e4; }
+  body .page .site-main {
+    max-width: 75%;
+    margin: 0 auto;
+    padding-bottom: 50px; }
+    body .page .site-main .inner-section {
+      box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      height: auto;
+      position: relative;
+      background-color: white;
+      border-radius: 15px; }
+      body .page .site-main .inner-section .page-header {
+        background-color: #44b1e4;
+        padding: 50px;
+        margin-bottom: 25px;
+        background-image: url(/image/sp_main_bg.png);
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center center; }
+        body .page .site-main .inner-section .page-header .photo {
+          max-width: 280px;
+          margin-bottom: -75px;
+          border: 3px solid white;
+          box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+          transition: all 0.3s ease-in-out; }
+          body .page .site-main .inner-section .page-header .photo img {
+            max-width: 100%;
+            vertical-align: bottom;
+            height: auto; }
+        body .page .site-main .inner-section .page-header .title-block {
+          color: white;
+          text-align: center;
+          margin: 30px 0 0 0; }
+          body .page .site-main .inner-section .page-header .title-block h1 {
+            font-size: 54px;
+            font-weight: 700; }
+        body .page .site-main .inner-section .page-header .social-media {
+          position: relative;
+          margin: 20px auto 0 auto;
+          color: gray;
+          text-align: center; }
+          body .page .site-main .inner-section .page-header .social-media a {
+            background-color: #f5f5f5;
+            color: gray;
+            width: 36px;
+            height: 36px;
+            margin: 0 2px;
+            border-radius: 24px;
+            display: inline-block;
+            text-align: center; }
+            body .page .site-main .inner-section .page-header .social-media a i {
+              line-height: 36px;
+              font-size: 16px; }
+      body .page .site-main .inner-section .page-content {
+        padding: 30px 50px 50px 50px; }
+        body .page .site-main .inner-section .page-content .about-me .block-title h3 {
+          font-weight: 600;
+          line-height: 1.5em;
+          font-family: "Monserrate", Helvetica, sans-serif;
+          margin-top: 5px;
+          font-size: 21px;
+          margin-bottom: 10px; }
+          body .page .site-main .inner-section .page-content .about-me .block-title h3 span {
+            color: #44b1e4; }
+        body .page .site-main .inner-section .page-content .info-list {
+          list-style: none;
+          display: inline-block; }
+          body .page .site-main .inner-section .page-content .info-list li {
+            margin: 6px 0; }
+            body .page .site-main .inner-section .page-content .info-list li .title {
+              display: inline-block;
+              min-width: 120px; }
+            body .page .site-main .inner-section .page-content .info-list li .list-content {
+              color: gray; }
+              body .page .site-main .inner-section .page-content .info-list li .list-content a {
+                color: #44b1e4; }
+              body .page .site-main .inner-section .page-content .info-list li .list-content a:hover {
+                color: orange;
+                text-decoration: none; }
+
+footer {
+  max-width: 75%;
+  margin: 0 auto;
+  color: gray;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5em; }
